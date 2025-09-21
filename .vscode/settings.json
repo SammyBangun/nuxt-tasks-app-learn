@@ -1,0 +1,13 @@
+{
+    "prettier.enable": false,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.rules.customizations": [
+        {
+            "rule": "vue/multi-word-component-names",
+            "severity": "off"
+        }
+    ]
+}
